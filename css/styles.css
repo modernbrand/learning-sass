@@ -1,0 +1,90 @@
+/* line 1, /Users/bradfordkachelhofer/Documents/Covalence Class Learning/learning-sass/scss/styles.scss */
+.box-slideup {
+  float: left;
+  color: red;
+  width: 100px;
+  height: 120px;
+  box-shadow: 3px 3px 10px grey;
+  padding: 12px;
+  margin: 18px;
+  border: 3px solid #333333;
+  border-radius: 6px;
+  background-color: #34105c;
+  position: relative;
+  transition: height 3s;
+}
+
+/* line 15, /Users/bradfordkachelhofer/Documents/Covalence Class Learning/learning-sass/scss/styles.scss */
+.box-slideup:hover {
+  height: 200px;
+  margin-top: -25px;
+}
+
+/* line 19, /Users/bradfordkachelhofer/Documents/Covalence Class Learning/learning-sass/scss/styles.scss */
+.box-rotator {
+  float: left;
+  color: white;
+  width: 100px;
+  height: 120px;
+  box-shadow: 3px 3px 10px grey;
+  padding: 12px;
+  margin: 18px;
+  border: 3px solid #333333;
+  border-radius: 6px;
+  background-color: #10245c;
+  position: relative;
+}
+
+/* line 33, /Users/bradfordkachelhofer/Documents/Covalence Class Learning/learning-sass/scss/styles.scss */
+.box-rotator:hover {
+  transform: rotate(-180deg);
+  transition-duration: 2s;
+  transition-timing-function: ease-out;
+}
+
+/* line 38, /Users/bradfordkachelhofer/Documents/Covalence Class Learning/learning-sass/scss/styles.scss */
+.box-fader {
+  float: left;
+  color: black;
+  width: 100px;
+  height: 120px;
+  box-shadow: 3px 3px 10px grey;
+  padding: 12px;
+  margin: 18px;
+  border: 3px solid #333333;
+  border-radius: 6px;
+  background-color: #70d320;
+  position: relative;
+}
+
+/* line 51, /Users/bradfordkachelhofer/Documents/Covalence Class Learning/learning-sass/scss/styles.scss */
+.box-fader:hover {
+  transition-duration: 3s;
+  transition-timing-function: cubic-bezier(0.075, 0.6, 0.165, 1);
+  opacity: 0;
+}
+
+/* line 56, /Users/bradfordkachelhofer/Documents/Covalence Class Learning/learning-sass/scss/styles.scss */
+.box-color {
+  float: left;
+  color: white;
+  text-align: center;
+  line-height: 200px;
+  white-space: nowrap;
+  font-weight: bold;
+  margin-right: 2em;
+  width: 100px;
+  height: 120px;
+  box-shadow: 3px 3px 10px grey;
+  padding: 12px;
+  margin-top: 10px;
+  background-color: fuchsia;
+}
+
+/* line 71, /Users/bradfordkachelhofer/Documents/Covalence Class Learning/learning-sass/scss/styles.scss */
+.box-color:hover {
+  transform: 2s;
+  box-shadow: 20px 30px 40px grey;
+}
+
+/*# sourceMappingURL=../css/styles.map */
